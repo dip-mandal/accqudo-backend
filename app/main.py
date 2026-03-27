@@ -87,6 +87,7 @@ app.add_middleware(
     allow_origins=[
         "https://accqudo-backend.onrender.com",
         "https://accqudo.vercel.app",
+        "http://localhost:3000",
     ],
     allow_origin_regex=r"https://.*\.accqudo.vercel.app",
     allow_credentials=True,
